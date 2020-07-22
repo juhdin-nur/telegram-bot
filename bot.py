@@ -10,7 +10,7 @@ import subprocess
 from config import conf
 import common
 
-bot = telebot.TeleBot(conf['telegram_token'])
+bot = telebot.TeleBot(conf['1336933524:AAG750vTP8dhuPKMUt48yewGrUCmxhpkVBU'])
 
 @bot.message_handler(commands=['help', 'start'])
 #
